@@ -1,6 +1,6 @@
 {
     "name": "ledger"
-  , "version": "0.1.0"
+  , "version": "0.2.0"
   , "description": "Event based utility for logging to stdout, file or database."
   , "homepage": "http://www.blangdon.com/"
   , "keywords": [
@@ -17,13 +17,13 @@
     ]
   , "licenses": [
       {
-          "type": "OSL-3.0"
-        , "url": "http://www.opensource.org/licenses/OSL-3.0"
+          "type": "MIT"
+        , "url": "http://www.opensource.org/licenses/MIT"
       }
   ]
   , "repository":{
-        "type": "hg"
-      , "url": "https://bitbucket.org/brett_langdon/ledger"
+        "type": "git"
+      , "url": "github.com/brettlangdon/ledger"
     }
   , "dependencies": {
         "eventemitter2": ">=0.4.9"

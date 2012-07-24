@@ -1,0 +1,35 @@
+{
+    "name": "ledger"
+  , "version": "0.1.0"
+  , "description": "Event based utility for logging to stdout, file or database."
+  , "homepage": "http://www.blangdon.com/"
+  , "keywords": [
+       "logging"
+     , "log"
+     , "stdout"
+     , "file"
+     , "mongodb"
+     , "console"
+  ]
+  , "author": "Brett Langdon <brett@blangdon.com>"
+  , "contributors": [
+      { "name": "Brett Langdon", "email": "brett@blangdon.com" }
+    ]
+  , "licenses": [
+      {
+          "type": "OSL-3.0"
+        , "url": "http://www.opensource.org/licenses/OSL-3.0"
+      }
+  ]
+  , "repository":{
+        "type": "hg"
+      , "url": "https://bitbucket.org/brett_langdon/ledger"
+    }
+  , "dependencies": {
+        "eventemitter2": ">=0.4.9"
+      , "mongolian": ">=0.1.18"
+      , "colors": ">=0.6.0"
+    }
+  , "main": "lib/index.js"
+  , "engines": { "node": ">= 0.6.0" }
+}

@@ -1,11 +1,14 @@
-var ledger = require('../')();
+var ledger = require('../');
+var logger = ledger.createLogger( {}, [
+				       new ledger.transactions.file({})
+				       ]);
 
 
-ledger.on('log::error', function(time, msg){
+logger.on('log::error', function(time, msg){
     //do somethign special with errors
 });
 
-ledger.on('log::*', function(time, msg){
+logger.on('log::*', function(time, msg){
     //catchall for any logs
 });
 
